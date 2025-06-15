@@ -15,8 +15,11 @@ To appear in *Proceedings of the 27th International Conference on Big Data Analy
 - `conversation.csv`（`conversation.xlsx`）  
   ユーザとシステムの対話ログを記録したファイルです。
 
-- `nuggets.csv`（`nuggets.xlsx`）  
-  ユーザ要約ナゲットとシステム応答ナゲットを記載したファイルです。
+- `system-response-nuggets.csv`（`system-response-nuggets.xlsx`）  
+  システム応答ナゲットを記載したファイルです。
+
+- `user-summary-nuggets.csv`（`user-summary-nuggets.xlsx`）  
+  ユーザ要約ナゲットを記載したファイルです。
 
 - `llm-as-a-judge-prompt.ipynb`  
   GPT-4.1（2025-04-14）を用いてナゲット抽出を行った際のプロンプトを含むNotebookです。
@@ -53,8 +56,11 @@ It also includes the data used for the analysis of **weighted nugget recall** an
 - `conversation.csv` (`conversation.xlsx`)  
   Contains the dialogues between users and the system during the spoken conversational search tasks.
 
-- `nuggets.csv` (`nuggets.xlsx`)  
-  Contains user summary nuggets and system response nuggets used for evaluation.
+- `system-response-nuggets.csv` (`system-response-nuggets.xlsx`)  
+  Contains system response nuggets used for evaluation.
+
+- `user-summary-nuggets.csv` (`user-summary-nuggets.xlsx`)  
+  Contains user summary nuggets used for evaluation.
 
 - `llm-as-a-judge-prompt.ipynb`  
   Provides the prompt used with GPT-4.1 (as of 2025-04-14) to extract nuggets under the LLM-as-a-Judge evaluation framework.
